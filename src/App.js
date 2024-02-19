@@ -35,13 +35,15 @@ function App() {
 
   return (
     <div className="App">
+      <div className="search-container">
       <input
         type="text"
         value={searchValue}
         onChange={handleSearch}
-        placeholder="Search..."
+        placeholder="Search the cards..."
       />
-      <div>
+      </div>
+      <div className="cards-container">
         {displayedCards.map((item) => (
           <Card
             key={item.id}
