@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import StartingCard from "./StartingCard";
 
 function renderImagesInText(text) {
   if (!text) {
@@ -17,13 +18,26 @@ function renderImagesInText(text) {
 }
 
 const Card = ({ data }) => {
+  if (data.type === "character" || data.type === "companion") {
+    return <StartingCard data={data} />;
+  }
   return (
     <div className="card">
-      <h2>{data.name}</h2>
-      <p>Type: {data.type}</p>
-      <p>Description: {renderImagesInText(data.ability)}</p>
+      <div className="upper-container">
+        <div className="left-column"></div>
+        <div className="middle-column">
+          <div className="name">{data.name.toUpperCase()}</div>
+          <div className="type">{data.type}</div>
+        </div>
+        <div className="right-column"></div>
+      </div>
+      <div className="lower-container">
+        <img className="worker" src={require(`../assets/icons/Worker${data.worker}.png`)} alt="meeple" />
+        <div className="ability">{renderImagesInText(data.ability)}</div>
+      </div>
     </div>
   );
 };
 
+export { renderImagesInText };
 export default Card;
