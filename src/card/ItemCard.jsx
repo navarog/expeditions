@@ -1,6 +1,6 @@
 import { renderImagesInText } from "./Card.jsx";
 
-const StartingCard = ({ data }) => {
+const ItemCard = ({ data }) => {
   return (
     <div className="card">
       <div className="upper-container">
@@ -10,12 +10,7 @@ const StartingCard = ({ data }) => {
             src={require(`../assets/icons/${data.core}-v2.png`)}
             alt={data.core}
           />
-          {data.conditions.split(", ").map((condition, index) => (
-            <div className="condition" key={index}>
-              <img className="star-icon" src={require(`../assets/icons/Star-${index + 1}.png`)} alt={`star-${index + 1}`} />
-              <img className="condition-icon" src={require(`../assets/icons/${condition}-v2.png`)} alt={condition} />
-            </div>
-          ))}
+          <div className="benefit">{renderImagesInText(data.benefit)}</div>
         </div>
         <div className="middle-column">
           <div className="name">{data.name.toUpperCase()}</div>
@@ -30,9 +25,13 @@ const StartingCard = ({ data }) => {
           alt="meeple"
         />
         <div className="ability">{renderImagesInText(data.ability)}</div>
+        <div className="coin-wrapper">
+            <img className="coin-icon" src={require(`../assets/icons/Coin.png`)} alt="coin" />
+            <div className="coin-value">{data.coins}</div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default StartingCard;
+export default ItemCard;

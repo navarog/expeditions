@@ -198,7 +198,7 @@
   {
     "name":"Synergy Halo",
     "type":"item",
-    "ability":"Whenever you gain at least 2 [Guile] during your turn, also gain [Power].",
+    "ability":"Whenever you gain at least 2x[Guile] during your turn, also gain [Power].",
     "worker":"Blue",
     "core":"Guile",
     "conditions":null,
@@ -272,7 +272,7 @@
     "worker":"Red",
     "core":"Power",
     "conditions":null,
-    "benefit":"Resque [ResqueCard]",
+    "benefit":"Rescue [RescueCard]",
     "location":null,
     "meld":null,
     "coins":3.0,
@@ -314,7 +314,7 @@
     "worker":"Yellow",
     "core":"Power",
     "conditions":null,
-    "benefit":"Resque [ResqueCard]",
+    "benefit":"Rescue [RescueCard]",
     "location":null,
     "meld":null,
     "coins":2.0,
@@ -506,7 +506,7 @@
   {
     "name":"Fusion Link",
     "type":"item",
-    "ability":"Whenever you gain at least 2 [Power] during your turn, also gain [Guile].",
+    "ability":"Whenever you gain at least 2x[Power] during your turn, also gain [Guile].",
     "worker":"Purple",
     "core":"Power",
     "conditions":null,
@@ -520,7 +520,7 @@
   {
     "name":"Mindstone",
     "type":"meteorite",
-    "ability":"Place a worker on an active card to activate its ability. 2 [PurpleArrow] Gain [Power] per placed worker.",
+    "ability":"Place a worker on an active card to activate its ability. [Meld-2] Gain [Power] per placed worker.",
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile",
@@ -534,7 +534,7 @@
   {
     "name":"Sunstone",
     "type":"meteorite",
-    "ability":"Vanquish. 2 [PurpleArrow] Gain [Guile] per 3-value corruption.",
+    "ability":"Vanquish. [Meld-2] Gain [Guile] per 3-value corruption.",
     "worker":"Yellow",
     "core":"Power",
     "conditions":"Power",
@@ -548,7 +548,7 @@
   {
     "name":"Yellowstone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up yellow card to your hand. 2 [PurpleArrow] Gain [Power] per yellow card you control.",
+    "ability":"Gain 1 face-up yellow card to your hand. [Meld-2] Gain [Power] per yellow card you control.",
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile",
@@ -562,7 +562,7 @@
   {
     "name":"Goldstone",
     "type":"meteorite",
-    "ability":"Gather. 2 [PurpleArrow] Gain [Power] per adjacent location.",
+    "ability":"Gather. [Meld-2] Gain [Power] per adjacent location.",
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile",
@@ -576,7 +576,7 @@
   {
     "name":"Leechstone",
     "type":"meteorite",
-    "ability":"Refresh. 2 [PurpleArrow] Gain [Power] per player.",
+    "ability":"Refresh. [Meld-2] Gain [Power] per player.",
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile",
@@ -590,7 +590,7 @@
   {
     "name":"Cluestone",
     "type":"meteorite",
-    "ability":"Solve. 2 [PurpleArrow] Gain [Power] per solved quest.",
+    "ability":"Solve. [Meld-2] Gain [Power] per solved quest.",
     "worker":"Green",
     "core":"Guile",
     "conditions":"Guile",
@@ -604,7 +604,7 @@
   {
     "name":"Bravestone",
     "type":"meteorite",
-    "ability":"Vanquish. 2 [PurpleArrow] Gain [Power] per 4-value corruption.",
+    "ability":"Vanquish. [Meld-2] Gain [Power] per 4-value corruption.",
     "worker":"Green",
     "core":"Guile",
     "conditions":"Guile",
@@ -618,7 +618,7 @@
   {
     "name":"Charterstone",
     "type":"meteorite",
-    "ability":"Move to any unoccupied face-up location. 2 [PurpleArrow] Gain [Guile] per adjacent face-up card.",
+    "ability":"Move to any unoccupied face-up location. [Meld-2] Gain [Guile] per adjacent face-up card.",
     "worker":"Green",
     "core":"Power",
     "conditions":"Power",
@@ -632,7 +632,7 @@
   {
     "name":"Greenstone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up green card to your hand. 2 [PurpleArrow] Gain [Guile] per green card you control.",
+    "ability":"Gain 1 face-up green card to your hand. [Meld-2] Gain [Guile] per green card you control.",
     "worker":"Green",
     "core":"Power",
     "conditions":"Power",
@@ -646,7 +646,7 @@
   {
     "name":"Mapstone",
     "type":"meteorite",
-    "ability":"Gain a map from the general supply. 2 [PurpleArrow] Gain [Power] per map.",
+    "ability":"Gain a map from the general supply. [Meld-2] Gain [Power] per map.",
     "worker":"Green",
     "core":"Guile",
     "conditions":"Guile",
@@ -660,7 +660,7 @@
   {
     "name":"Redstone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up red card to your hand. 2 [PurpleArrow] Gain [Guile] per red card you control.",
+    "ability":"Gain 1 face-up red card to your hand. [Meld-2] Gain [Guile] per red card you control.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -674,7 +674,7 @@
   {
     "name":"Aidstone",
     "type":"meteorite",
-    "ability":"Vanquish. 2 [PurpleArrow] Gain [Guile] per orange corruption.",
+    "ability":"Vanquish. [Meld-2] Gain [Guile] per orange corruption.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -688,7 +688,7 @@
   {
     "name":"Herostone",
     "type":"meteorite",
-    "ability":"Discard a card to gain its core value. 2 [PurpleArrow] Rescue the previous card.",
+    "ability":"Discard a card to gain its core value. [Meld-2] Rescue the previous card.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -702,7 +702,7 @@
   {
     "name":"Queststone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up quest to your hand. 2 [PurpleArrow] Gain [Guile] per quest you control.",
+    "ability":"Gain 1 face-up quest to your hand. [Meld-2] Gain [Guile] per quest you control.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -716,7 +716,7 @@
   {
     "name":"Alanstone",
     "type":"meteorite",
-    "ability":"Gain a worker. 2 [PurpleArrow] Gain [Guile] per available worker.",
+    "ability":"Gain a worker. [Meld-2] Gain [Guile] per available worker.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -730,7 +730,7 @@
   {
     "name":"Brainstone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up item to your hand. 2 [PurpleArrow] Gain [Power] per item in your hand.",
+    "ability":"Gain 1 face-up item to your hand. [Meld-2] Gain [Power] per item in your hand.",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile",
@@ -744,7 +744,7 @@
   {
     "name":"Gearstone",
     "type":"meteorite",
-    "ability":"Upgrade. 2 [PurpleArrow] Gain [Power] per upgrade.",
+    "ability":"Upgrade. [Meld-2] Gain [Power] per upgrade.",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile",
@@ -758,7 +758,7 @@
   {
     "name":"Bluestone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up blue card to your hand. 2 [PurpleArrow] Gain [Power] per blue card you control.",
+    "ability":"Gain 1 face-up blue card to your hand. [Meld-2] Gain [Power] per blue card you control.",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile",
@@ -772,7 +772,7 @@
   {
     "name":"Fuelstone",
     "type":"meteorite",
-    "ability":"Vanquish. 2 [PurpleArrow] Gain [Power] per turquoise corruption.",
+    "ability":"Vanquish. [Meld-2] Gain [Power] per turquoise corruption.",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile",
@@ -786,7 +786,7 @@
   {
     "name":"Cipherstone",
     "type":"meteorite",
-    "ability":"Discard a card to activate its ability. 2 [PurpleArrow] Gain the previous card\u2019s core value.",
+    "ability":"Discard a card to activate its ability. [Meld-2] Gain the previous card\u2019s core value.",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile",
@@ -800,7 +800,7 @@
   {
     "name":"Purplestone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up purple card to your hand. 2 [PurpleArrow] Gain [Guile] per purple card you control.",
+    "ability":"Gain 1 face-up purple card to your hand. [Meld-2] Gain [Guile] per purple card you control.",
     "worker":"Purple",
     "core":"Power",
     "conditions":"Power",
@@ -814,7 +814,7 @@
   {
     "name":"Cullstone",
     "type":"meteorite",
-    "ability":"Vanquish. 2 [PurpleArrow] Gain [Power] per 5-value corruption.",
+    "ability":"Vanquish. [Meld-2] Gain [Power] per 5-value corruption.",
     "worker":"Purple",
     "core":"Power",
     "conditions":"Power",
@@ -828,7 +828,7 @@
   {
     "name":"Aetherstone",
     "type":"meteorite",
-    "ability":"Gain 1 face-up meteorite to your hand. 2 [PurpleArrow] Gain [Guile] per meteorite you control.",
+    "ability":"Gain 1 face-up meteorite to your hand. [Meld-2] Gain [Guile] per meteorite you control.",
     "worker":"Purple",
     "core":"Guile",
     "conditions":"Guile",
@@ -842,7 +842,7 @@
   {
     "name":"Morphstone",
     "type":"meteorite",
-    "ability":"Change a worker to purple; it becomes available. 2 [PurpleArrow] Gain [Power] per purple worker.",
+    "ability":"Change a worker to purple; it becomes available. [Meld-2] Gain [Power] per purple worker.",
     "worker":"Purple",
     "core":"Guile",
     "conditions":"Guile",
@@ -856,7 +856,7 @@
   {
     "name":"Meldstone",
     "type":"meteorite",
-    "ability":"Meld another meteorite. 2 [PurpleArrow] Gain [Guile] per melded meteorite.",
+    "ability":"Meld another meteorite. [Meld-2] Gain [Guile] per melded meteorite.",
     "worker":"Purple",
     "core":"Power",
     "conditions":"Power",
@@ -870,7 +870,7 @@
   {
     "name":"Clear the Blockaded Bridge",
     "type":"quest",
-    "ability":"If you have 0\u20132 cards in hand, gain 2 [Power]. Otherwise, gain [Guile].",
+    "ability":"If you have 0\u20132 cards in hand, gain 2x[Power]. Otherwise, gain [Guile].",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -940,7 +940,7 @@
   {
     "name":"Chart a Course North",
     "type":"quest",
-    "ability":"Boast. If every opponent is south of you, gain 2 [Power].",
+    "ability":"Boast. If every opponent is south of you, gain 2x[Power].",
     "worker":"Green",
     "core":"Guile",
     "conditions":"Guile",
@@ -958,7 +958,7 @@
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile",
-    "benefit":"ResqueCard",
+    "benefit":"RescueCard",
     "location":4.0,
     "meld":null,
     "coins":null,
@@ -968,7 +968,7 @@
   {
     "name":"Drive off the Marauders",
     "type":"quest",
-    "ability":"Discard a card to gain 2 [Power].",
+    "ability":"Discard a card to gain 2x[Power].",
     "worker":"Red",
     "core":"Power",
     "conditions":"Power",
@@ -1066,7 +1066,7 @@
   {
     "name":"Unearth Some Strange Rocks",
     "type":"quest",
-    "ability":"If you have no corruption, gain 2 [Guile]. Otherwise, gain 2 [Power].",
+    "ability":"If you have no corruption, gain 2x[Guile]. Otherwise, gain 2x[Power].",
     "worker":"Purple",
     "core":"Power",
     "conditions":"Power, Power",
@@ -1122,7 +1122,7 @@
   {
     "name":"Placate Possessed Animals",
     "type":"quest",
-    "ability":"Pay [Guile] to gain 2 [Power].",
+    "ability":"Pay [Guile] to gain 2x[Power].",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile, Guile",
@@ -1134,7 +1134,7 @@
     "id":80
   },
   {
-    "name":"Resque a Trapped Mercenary",
+    "name":"Rescue a Trapped Mercenary",
     "type":"quest",
     "ability":"Rescue another card; either gain its core value or activate its ability.",
     "worker":"Red",
@@ -1220,7 +1220,7 @@
   {
     "name":"Scout the Abandoned Base",
     "type":"quest",
-    "ability":"Pay 2 [Guile] to gain the top corruption from an adjacent location if it\u2019s a 3 or 4.",
+    "ability":"Pay 2x[Guile] to gain the top corruption from an adjacent location if it\u2019s a 3 or 4.",
     "worker":"Red",
     "core":"Power",
     "conditions":"Guile, Guile",
@@ -1238,7 +1238,7 @@
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile, Guile, Guile",
-    "benefit":"PurpleArrow",
+    "benefit":"Meld",
     "location":14.0,
     "meld":null,
     "coins":null,
@@ -1262,7 +1262,7 @@
   {
     "name":"Activate the Ancient",
     "type":"quest",
-    "ability":"Pay [Guile] to gain 3 [Power].",
+    "ability":"Pay [Guile] to gain 3x[Power].",
     "worker":"Blue",
     "core":"Guile",
     "conditions":"Guile, Guile, Guile",
@@ -1374,7 +1374,7 @@
   {
     "name":"Weaken the Leviathan",
     "type":"quest",
-    "ability":"Gain 3 [Guile] if your mech is in the North, 2 [Guile] in Central, or [Guile] in the South.",
+    "ability":"Gain 3x[Guile] if your mech is in the North, 2x[Guile] in Central, or [Guile] in the South.",
     "worker":"Green",
     "core":"Power",
     "conditions":"Power, Power, Power",
@@ -1388,7 +1388,7 @@
   {
     "name":"Identify Members of a Lost Expedition",
     "type":"quest",
-    "ability":"Gain [Guile] OR pay 2 [Guile] to gain $2.",
+    "ability":"Gain [Guile] OR pay 2x[Guile] to gain $2.",
     "worker":"Yellow",
     "core":"Guile",
     "conditions":"Guile, Guile, Guile",
