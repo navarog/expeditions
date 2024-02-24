@@ -22,6 +22,7 @@ const MeteoriteCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
+          <img className="meteorite-bar" src={require(`../assets/icons/MeteoriteBar.png`)} alt="Meteorite Bar" />
             <div className="meld">
                 {data.meld}
             </div>

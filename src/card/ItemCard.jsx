@@ -16,7 +16,9 @@ const ItemCard = ({ data }) => {
           <div className="name">{data.name.toUpperCase()}</div>
           <div className="type">{data.type}</div>
         </div>
-        <div className="right-column"></div>
+        <div className="right-column">
+          <img className="type-icon" src={require(`../assets/icons/Item.png`)} alt="item" />
+        </div>
       </div>
       <div className="lower-container">
         <img

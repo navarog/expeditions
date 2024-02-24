@@ -1,6 +1,8 @@
 import { renderImagesInText } from "./Card.jsx";
 
 const QuestCard = ({ data }) => {
+    const locationLetter = data.location > 6 ? (data.location > 13 ? "N": "C") : "S";
+
   return (
     <div className="card">
       <div className="upper-container">
@@ -16,8 +18,10 @@ const QuestCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
+            <img className="type-icon-quest" src={require(`../assets/icons/Quest.png`)} alt="Quest" />
             <div className="location">{data.location}</div>
             <div className="quest-icons">
+                <img className="quest-location-icon" src={require(`../assets/icons/Location-${locationLetter}.png`)} alt={`Location ${locationLetter}`} />
                 {data.conditions.split(", ").map((condition, index) => (
                     <img
                         className="quest-icon"
