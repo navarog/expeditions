@@ -12,8 +12,16 @@ const StartingCard = ({ data }) => {
           />
           {data.conditions.split(", ").map((condition, index) => (
             <div className="condition" key={index}>
-              <img className="star-icon" src={require(`../assets/icons/Star-${index + 1}.png`)} alt={`star-${index + 1}`} />
-              <img className="condition-icon" src={require(`../assets/icons/${condition}-v2.png`)} alt={condition} />
+              <img
+                className="star-icon"
+                src={require(`../assets/icons/Star-${index + 1}.png`)}
+                alt={`star-${index + 1}`}
+              />
+              <img
+                className="condition-icon"
+                src={require(`../assets/icons/${condition}-v2.png`)}
+                alt={condition}
+              />
             </div>
           ))}
         </div>
@@ -22,16 +30,22 @@ const StartingCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
-          <img className="type-icon" src={require(`../assets/icons/Team-${data.team}.png`)} alt={`Team ${data.team}`} />
+          <img
+            className="type-icon"
+            src={require(`../assets/icons/Team-${data.team}.png`)}
+            alt={`Team ${data.team}`}
+          />
         </div>
       </div>
       <div className="lower-container">
         <img
           className="worker"
-          src={require(`../assets/icons/Worker${data.worker}.png`)}
-          alt="meeple"
+          src={require(`../assets/icons/Worker${data.worker}-v2.png`)}
+          alt={`${data.worker} worker`}
         />
-        <div className="ability">{renderImagesInText(data.ability)}</div>
+        <div className="ability">
+          <div>{renderImagesInText(data.ability)}</div>
+        </div>
       </div>
     </div>
   );

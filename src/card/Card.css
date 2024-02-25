@@ -12,10 +12,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  container-type: inline-size;
 }
 
 .name {
   font-size: 1.5em;
+  line-height: 1em;
   color: white;
   text-align: center;
 }
@@ -27,8 +29,10 @@
 
 .icon {
   width: auto;
-  height: 1.2em;
-  transform: translateY(0.2em);
+  height: 1.1em;
+  transform: translateY(0.1em);
+  margin-top: -0.1em;
+  margin-bottom: -0.1em;
 }
 
 .upper-container {
@@ -44,12 +48,14 @@
   display: flex;
   flex-direction: column;
   gap: 5%;
+  font-size: 6cqw;
 }
 
 .middle-column {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 7cqw;
 }
 
 .right-column {
@@ -58,27 +64,40 @@
   position: relative;
 }
 
+.core-icon {
+  margin: -10px -5px -5px -10px;
+}
+
 .lower-container {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
   height: auto;
-  width: 90%;
+  position: relative;
+  font-size: 6.9cqw;
+  align-items: center;
+  line-height: 1em;
+}
+
+.ability {
   background: #cfbe9fae;
-  padding: 2px;
+  padding: 0.2em;
+  padding-right: 0;
   border: 1px solid white;
   border-radius: 4px;
-  margin-left: 10%;
+  margin-left: -15%;
+  padding-left: 15%;
+  height: fit-content;
+  min-height: 14cqw;
+  display: flex;
   align-items: center;
-  position: relative;
 }
 
 .worker {
-  height: 50px;
-  width: auto;
-  transform: translateX(-35px);
-  border: 5px solid rgb(99, 58, 5);
-  border-radius: 50px;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
 }
 
 .condition {
@@ -112,39 +131,43 @@
 
 .benefit {
   margin-top: auto;
-  padding: 2px;
-  background: #eed8af;
-  border: 2px solid rgb(99, 58, 5);
+  margin-bottom: -5cqh;
+  padding-bottom: 5cqh;
+  background: #cfbe9fae;
+  border: 1px solid white;
+  border-radius: 4px;
   align-items: center;
   text-align: center;
 }
 
 .coin-wrapper {
   position: absolute;
-  right: -0.5em;
-  bottom: -0.85em;
+  right: -0.2em;
+  bottom: -0.5em;
 }
 
 .coin-icon {
-  height: 2em;
+  height: 1.5em;
+  border: 1px solid white;
+  border-radius: 100%;
 }
 
 .coin-value {
   position: absolute;
-  right: 0.52em;
-  bottom: 0.35em;
+  right: 0.54em;
+  bottom: 0.4em;
   color: white;
-  -webkit-text-stroke: 0.5px black;
-  font-size: 1.4em;
+  -webkit-text-stroke: 0.025em black;
+  font-size: 1.1em;
 }
 
 .meld {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   rotate: 180deg;
-  height: 100%;
+  height: 103cqw;
   margin-left: auto;
-  margin-right: calc(22% - 16px);
-  margin-bottom: 100%;
+  margin-right: calc(11% - 10px);
+  font-size: 7cqw;
 }
 
 .quest-icons {
@@ -154,20 +177,20 @@
   align-items: center;
   flex: 1;
   background-image: linear-gradient(#ffffffaa, #ffffff00);
-  width: 0.8em;
+  width: 5cqw;
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 3cqw;
 }
 
 .quest-icon {
-  min-width: 1em;
-  min-height: 1em;
-  max-width: 2.7em;
-  max-height: 1.65em;
+  min-width: 6.5cqw;
+  min-height: 6.5cqw;
+  max-width: 13cqw;
+  max-height: 9.5cqw;
 }
 
 .quest-location-icon {
-  width: 2em;
+  width: 13cqw;
   margin-top: -0.5em;
 }
 
@@ -176,6 +199,7 @@
   aspect-ratio: 1/1;
   width: 75%;
   margin-left: auto;
+  margin-right: -5px;
   border-radius: 100%;
   display: flex;
   justify-content: center;

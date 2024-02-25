@@ -17,19 +17,29 @@ const ItemCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
-          <img className="type-icon" src={require(`../assets/icons/Item.png`)} alt="item" />
+          <img
+            className="type-icon"
+            src={require(`../assets/icons/Item.png`)}
+            alt="item"
+          />
         </div>
       </div>
       <div className="lower-container">
         <img
           className="worker"
-          src={require(`../assets/icons/Worker${data.worker}.png`)}
+          src={require(`../assets/icons/Worker${data.worker}-v2.png`)}
           alt="meeple"
         />
-        <div className="ability">{renderImagesInText(data.ability)}</div>
+        <div className="ability">
+          <div>{renderImagesInText(data.ability)}</div>
+        </div>
         <div className="coin-wrapper">
-            <img className="coin-icon" src={require(`../assets/icons/Coin.png`)} alt="coin" />
-            <div className="coin-value">{data.coins}</div>
+          <img
+            className="coin-icon"
+            src={require(`../assets/icons/Coin.png`)}
+            alt="coin"
+          />
+          <div className="coin-value">{data.coins}</div>
         </div>
       </div>
     </div>

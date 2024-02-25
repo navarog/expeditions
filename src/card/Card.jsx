@@ -5,7 +5,7 @@ import ItemCard from "./ItemCard";
 import MeteoriteCard from "./MeteoriteCard";
 import QuestCard from "./QuestCard";
 
-function renderImagesInText(text) {
+function renderImagesInText(text, splitSentences = false) {
   if (!text) {
     return text;
   }
@@ -23,6 +23,21 @@ function renderImagesInText(text) {
         />
       );
     } else {
+      if (splitSentences) {
+        return part.split(".").map((sentence, index) => {
+          if (index % 2 === 1) {
+            return (
+              <>
+                {"." + sentence}
+                <br />
+              </>
+            );
+          } else {
+            return sentence;
+          }
+        });
+      }
+
       return part;
     }
   });

@@ -1,7 +1,8 @@
 import { renderImagesInText } from "./Card.jsx";
 
 const QuestCard = ({ data }) => {
-    const locationLetter = data.location > 6 ? (data.location > 13 ? "N": "C") : "S";
+  const locationLetter =
+    data.location > 6 ? (data.location > 13 ? "N" : "C") : "S";
 
   return (
     <div className="card">
@@ -18,37 +19,51 @@ const QuestCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
-            <img className="type-icon-quest" src={require(`../assets/icons/Quest.png`)} alt="Quest" />
-            <div className="location">{data.location}</div>
-            <div className="quest-icons">
-                <img className="quest-location-icon" src={require(`../assets/icons/Location-${locationLetter}.png`)} alt={`Location ${locationLetter}`} />
-                {data.conditions.split(", ").map((condition, index) => (
-                    <img
-                        className="quest-icon"
-                        key={index}
-                        src={require(`../assets/icons/${condition}.png`)}
-                        alt={condition}
-                    />
-                ))}
-                <img className="quest-icon" src={require(`../assets/icons/RedArrow.png`)} alt="Red Arrow" />
-                {data.benefit.split(", ").map((benefit, index) => (
-                    <img
-                        className="quest-icon"
-                        key={index}
-                        src={require(`../assets/icons/${benefit}.png`)}
-                        alt={benefit}
-                    />
-                ))}
-            </div>
+          <img
+            className="type-icon-quest"
+            src={require(`../assets/icons/Quest.png`)}
+            alt="Quest"
+          />
+          <div className="location">{data.location}</div>
+          <div className="quest-icons">
+            <img
+              className="quest-location-icon"
+              src={require(`../assets/icons/Location-${locationLetter}.png`)}
+              alt={`Location ${locationLetter}`}
+            />
+            {data.conditions.split(", ").map((condition, index) => (
+              <img
+                className="quest-icon"
+                key={index}
+                src={require(`../assets/icons/${condition}.png`)}
+                alt={condition}
+              />
+            ))}
+            <img
+              className="quest-icon"
+              src={require(`../assets/icons/RedArrow.png`)}
+              alt="Red Arrow"
+            />
+            {data.benefit.split(", ").map((benefit, index) => (
+              <img
+                className="quest-icon"
+                key={index}
+                src={require(`../assets/icons/${benefit}.png`)}
+                alt={benefit}
+              />
+            ))}
+          </div>
         </div>
       </div>
       <div className="lower-container">
         <img
           className="worker"
-          src={require(`../assets/icons/Worker${data.worker}.png`)}
+          src={require(`../assets/icons/Worker${data.worker}-v2.png`)}
           alt="meeple"
         />
-        <div className="ability">{renderImagesInText(data.ability)}</div>
+        <div className="ability">
+          <div>{renderImagesInText(data.ability)}</div>
+        </div>
       </div>
     </div>
   );

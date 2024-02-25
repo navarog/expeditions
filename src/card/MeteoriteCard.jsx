@@ -12,8 +12,16 @@ const MeteoriteCard = ({ data }) => {
           />
           {data.conditions.split(", ").map((condition, index) => (
             <div className="condition" key={index}>
-              <img className="meld-icon" src={require(`../assets/icons/Meld-${index + 1}.png`)} alt={`meld-${index + 1}`} />
-              <img className="condition-icon" src={require(`../assets/icons/${condition}-v2.png`)} alt={condition} />
+              <img
+                className="meld-icon"
+                src={require(`../assets/icons/Meld-${index + 1}.png`)}
+                alt={`meld-${index + 1}`}
+              />
+              <img
+                className="condition-icon"
+                src={require(`../assets/icons/${condition}-v2.png`)}
+                alt={condition}
+              />
             </div>
           ))}
         </div>
@@ -22,19 +30,23 @@ const MeteoriteCard = ({ data }) => {
           <div className="type">{data.type}</div>
         </div>
         <div className="right-column">
-          <img className="meteorite-bar" src={require(`../assets/icons/MeteoriteBar.png`)} alt="Meteorite Bar" />
-            <div className="meld">
-                {data.meld}
-            </div>
+          <img
+            className="meteorite-bar"
+            src={require(`../assets/icons/MeteoriteBar.png`)}
+            alt="Meteorite Bar"
+          />
+          <div className="meld">{data.meld}</div>
         </div>
       </div>
       <div className="lower-container">
         <img
           className="worker"
-          src={require(`../assets/icons/Worker${data.worker}.png`)}
+          src={require(`../assets/icons/Worker${data.worker}-v2.png`)}
           alt="meeple"
         />
-        <div className="ability">{renderImagesInText(data.ability)}</div>
+        <div className="ability">
+          <div>{renderImagesInText(data.ability, true)}</div>
+        </div>
       </div>
     </div>
   );
