@@ -27,10 +27,10 @@ function renderImagesInText(text, splitSentences = false) {
         return part.split(".").map((sentence, index) => {
           if (index % 2 === 1) {
             return (
-              <>
+              <span key={index}>
                 {"." + sentence}
                 <br />
-              </>
+              </span>
             );
           } else {
             return sentence;

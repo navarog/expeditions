@@ -61,6 +61,7 @@ const QuestCard = ({ data }) => {
           src={require(`../assets/icons/Worker${data.worker}-v2.png`)}
           alt="meeple"
         />
+        <div className="card-id">{data.number}</div>
         <div className="ability">
           <div>{renderImagesInText(data.ability)}</div>
         </div>

@@ -8,7 +8,7 @@ const cardIndex = FlexSearch.Document({
   tokenize: "full",
   document: {
     id: "id",
-    index: ["name", "ability", "meld", "benefit"],
+    index: ["name", "ability", "meld", "benefit", "number"],
   },
 });
 

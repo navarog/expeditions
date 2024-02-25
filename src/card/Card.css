@@ -224,3 +224,12 @@
   left: 0.7em;
   top: -0.5em;
 }
+
+.card-id {
+  position: absolute;
+  bottom: -2cqw;
+  left: 10cqw;
+  font-size: 0.7em;
+  color: white;
+  z-index: 2;
+}
