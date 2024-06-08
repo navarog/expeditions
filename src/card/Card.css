@@ -1,6 +1,5 @@
 .card {
   width: 100%;
-  height: 100%;
   background-image: url(../assets/card-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   container-type: inline-size;
+  aspect-ratio: 63 / 88;
 }
 
 .name {
@@ -147,15 +147,15 @@
 }
 
 .coin-icon {
-  height: 1.5em;
+  height: 10cqw;
   border: 1px solid white;
   border-radius: 100%;
 }
 
 .coin-value {
   position: absolute;
-  right: 0.54em;
-  bottom: 0.4em;
+  right: 4cqw;
+  bottom: 3cqw;
   color: white;
   -webkit-text-stroke: 0.025em black;
   font-size: 1.1em;
@@ -197,14 +197,14 @@
 .location {
   background: #ffffffaa;
   aspect-ratio: 1/1;
-  width: 75%;
+  width: 20cqw;
   margin-left: auto;
   margin-right: -5px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5em;
+  font-size: 15cqw;
   border: #000000 1px solid;
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }

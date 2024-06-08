@@ -24,30 +24,18 @@ input::placeholder {
 .cards-container {
     display: grid;
     padding: 0 30px;
-    grid-template-columns: repeat(auto-fill, minmax(max(230px, 15%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(max(210px, 15%), 1fr));
     justify-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: max(min(60px, 3vw), 30px);
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.card {
-    display: flex;
-    /* max-width: fit-content; */
-    aspect-ratio: 63 / 88;
-}
-
 @media (min-width: 700px) {
     .search-container {
         min-height: 30vh;
-    }
-
-    input {
-        width: 50%;
-        min-width: 500px;
-        max-width: 1000px;
     }
 
     .cards-container {
