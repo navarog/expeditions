@@ -14,6 +14,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      CI: false # Workaround for CSS container query warnings when minifying: https://github.com/postcss/postcss-calc/issues/199
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
