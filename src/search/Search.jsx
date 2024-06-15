@@ -49,9 +49,14 @@ export function handleSearch(state, query) {
   const filteredIds = searchedIds.filter((id) => {
     const card = state.allCards[id];
     return query.type[card.type] && query.expansion[card.expansion];
+  }).sort((a, b) => {
+    const typeOrder = {"character": 0, "companion": 0, "item": 1, "meteorite": 2, "quest": 3};
+    a = state.allCards[a];
+    b = state.allCards[b];
+    return (typeOrder[a.type] - typeOrder[b.type]) || (a.number - b.number) || (a.team - b.team) || a.id - b.id;
   });
 
-  return { ...state, filteredCardIds: filteredIds.sort((a, b) => a - b) };
+  return { ...state, filteredCardIds: filteredIds };
 }
 
 function Search({ cardState, triggerSearch }) {

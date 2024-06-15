@@ -9,7 +9,7 @@ const DISPLAYED_CARDS_INCREMENT = 30;
 
 function App() {
   const [cardState, triggerSearch] = useReducer(handleSearch, {
-    allCards: cards,
+    allCards: cards.sort((a, b) => a.id - b.id),
     filteredCardIds: cards.map((card) => card.id),
   });
 
