@@ -64,6 +64,22 @@
   position: relative;
 }
 
+.team-number {
+  position: relative;
+  top: calc(-10cqw - 10px);
+  right: calc(-17.5cqw + 10px);
+  width: 8cqw;
+  font-size: 7cqw;
+  text-align: center;
+}
+
+.expansion-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10cqw;
+}
+
 .core-icon {
   margin: -10px -5px -5px -10px;
 }

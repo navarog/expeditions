@@ -26,7 +26,6 @@ const cardIndex = FlexSearch.Document({
 
 import("../assets/cards.json").then((cards) => {
   cards.default
-    .sort((a, b) => a.id - b.id)
     .forEach((card) => cardIndex.add(card));
 });
 
@@ -49,7 +48,7 @@ export function handleSearch(state, query) {
     : state.allCards.map((card) => card.id);
   const filteredIds = searchedIds.filter((id) => {
     const card = state.allCards[id];
-    return query.type[card.type];
+    return query.type[card.type] && query.expansion[card.expansion];
   });
 
   return { ...state, filteredCardIds: filteredIds.sort((a, b) => a - b) };
@@ -75,6 +74,10 @@ function Search({ cardState, triggerSearch }) {
       Green: true,
       Red: true,
       Purple: true,
+    },
+    expansion: {
+      core: true,
+      gc: true,
     }
   };
   const [query, setQuery] = useState(defaultQuery);
@@ -198,8 +201,24 @@ function Search({ cardState, triggerSearch }) {
           </AccordionSummary>
           <AccordionDetails>
             <div className="search-details">
-              <Tooltip title="Filter out cards by personality">
-                <div className="row">
+              <Tooltip title="Filter out expansions">
+                <div className="row reverse">
+                  {Object.keys(query.expansion).map((expansion) => (
+                  <img
+                    className={`expansion ${
+                      query.expansion[expansion] ? "" : "disabled"
+                    }`}
+                    key={expansion}
+                    onClick={() => 
+                      setQuery({
+                        ...query,
+                        expansion: { ...query.expansion, [expansion]: !query.expansion[expansion] },
+                      })
+                    }
+                    src={require(`../assets/icons/${expansion}-expansion.png`)}
+                    alt={`${expansion} expansion`}
+                  />
+                  ))}
                 </div>
               </Tooltip>
             </div>

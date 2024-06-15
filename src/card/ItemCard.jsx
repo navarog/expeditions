@@ -43,6 +43,7 @@ const ItemCard = ({ data }) => {
           <div className="coin-value">{data.coins}</div>
         </div>
       </div>
+      {data.expansion !== "core" && <img className="expansion-icon" src={require(`../assets/icons/${data.expansion}-expansion.png`)} alt={`${data.expansion} expansion`}/>}
     </div>
   );
 };

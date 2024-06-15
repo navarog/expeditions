@@ -62,9 +62,8 @@
     }
   }
 
-  .personality {
-    object-fit: contain;
-    object-position: 4px 0;
+  .reverse {
+    flex-direction: row-reverse;
   }
 }
 
@@ -79,4 +78,9 @@
 
 .accordion {
   background-color: #e7e3da;
+}
+
+.expansion {
+  padding: 0 5px;
+  cursor: pointer;
 }

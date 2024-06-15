@@ -12,6 +12,7 @@
     "coins":null,
     "team":1.0,
     "number":null,
+    "expansion":"core",
     "id":0
   },
   {
@@ -27,6 +28,7 @@
     "coins":null,
     "team":1.0,
     "number":null,
+    "expansion":"core",
     "id":1
   },
   {
@@ -42,6 +44,7 @@
     "coins":null,
     "team":2.0,
     "number":null,
+    "expansion":"core",
     "id":2
   },
   {
@@ -57,6 +60,7 @@
     "coins":null,
     "team":2.0,
     "number":null,
+    "expansion":"core",
     "id":3
   },
   {
@@ -72,6 +76,7 @@
     "coins":null,
     "team":3.0,
     "number":null,
+    "expansion":"core",
     "id":4
   },
   {
@@ -87,6 +92,7 @@
     "coins":null,
     "team":3.0,
     "number":null,
+    "expansion":"core",
     "id":5
   },
   {
@@ -102,6 +108,7 @@
     "coins":null,
     "team":4.0,
     "number":null,
+    "expansion":"core",
     "id":6
   },
   {
@@ -117,6 +124,7 @@
     "coins":null,
     "team":4.0,
     "number":null,
+    "expansion":"core",
     "id":7
   },
   {
@@ -132,6 +140,7 @@
     "coins":null,
     "team":5.0,
     "number":null,
+    "expansion":"core",
     "id":8
   },
   {
@@ -147,6 +156,7 @@
     "coins":null,
     "team":5.0,
     "number":null,
+    "expansion":"core",
     "id":9
   },
   {
@@ -162,6 +172,7 @@
     "coins":null,
     "team":6.0,
     "number":null,
+    "expansion":"core",
     "id":10
   },
   {
@@ -177,7 +188,136 @@
     "coins":null,
     "team":6.0,
     "number":null,
+    "expansion":"core",
     "id":11
+  },
+  {
+    "name":"Bjorn",
+    "type":"character",
+    "ability":"Gain a red worker OR Solve; if you Solve, gain the core value of all your solved quests.",
+    "worker":"Blue",
+    "core":"Power",
+    "conditions":"Power, Guile",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":7.0,
+    "number":null,
+    "expansion":"gc",
+    "id":102
+  },
+  {
+    "name":"Mox",
+    "type":"companion",
+    "ability":"Play a card OR Vanquish; if this Vanquish removes the location's final corruption, you may gain the revealed benefit.",
+    "worker":"Red",
+    "core":"Guile",
+    "conditions":"Power, Power",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":7.0,
+    "number":null,
+    "expansion":"gc",
+    "id":103
+  },
+  {
+    "name":"Zehra",
+    "type":"character",
+    "ability":"Look at the top card of the deck and either return it to gain [Guile] or sweep it to gain [Power] OR Solve; if you Solve, gain the core value of all your solved quests.",
+    "worker":"Yellow",
+    "core":"Guile",
+    "conditions":"Power, Guile",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":8.0,
+    "number":null,
+    "expansion":"gc",
+    "id":106
+  },
+  {
+    "name":"Kar",
+    "type":"companion",
+    "ability":"Gain the top card of the deck OR Vanquish; if this Vanquish removes the location\u2019s final corruption, you may gain the revealed benefit.",
+    "worker":"Green",
+    "core":"Guile",
+    "conditions":"Guile, Power",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":8.0,
+    "number":null,
+    "expansion":"gc",
+    "id":107
+  },
+  {
+    "name":"Baaliahon",
+    "type":"character",
+    "ability":"Gain the top corruption accessible from your location (except the 20-value corruption token) OR pay [Guile][Power] to Meld.",
+    "worker":"Purple",
+    "core":"Guile",
+    "conditions":"Guile, Power",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":9.0,
+    "number":null,
+    "expansion":"gc",
+    "id":108
+  },
+  {
+    "name":"Zephon",
+    "type":"companion",
+    "ability":"Activate a face-up purple card\u2019s ability OR trash 1 corruption to tuck a quest.",
+    "worker":"Purple",
+    "core":"Power",
+    "conditions":"Guile, Power",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":9.0,
+    "number":null,
+    "expansion":"gc",
+    "id":109
+  },
+  {
+    "name":"Freya",
+    "type":"character",
+    "ability":"Sweep 1 face-up card to gain its core value OR Solve; if you Solve, gain the core value of all your solved quests.",
+    "worker":"Green",
+    "core":"Power",
+    "conditions":"Guile, Guile",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":10.0,
+    "number":null,
+    "expansion":"gc",
+    "id":104
+  },
+  {
+    "name":"Loki",
+    "type":"companion",
+    "ability":"Trash a card from the sweep pile to gain $1 OR Vanquish; if this Vanquish removes the location\u2019s final corruption, you may gain the revealed benefit.",
+    "worker":"Red",
+    "core":"Guile",
+    "conditions":"Power, Guile",
+    "benefit":null,
+    "location":null,
+    "meld":null,
+    "coins":null,
+    "team":10.0,
+    "number":null,
+    "expansion":"gc",
+    "id":105
   },
   {
     "name":"Scythe",
@@ -192,6 +332,7 @@
     "coins":4.0,
     "team":null,
     "number":"001",
+    "expansion":"core",
     "id":12
   },
   {
@@ -207,6 +348,7 @@
     "coins":2.0,
     "team":null,
     "number":"002",
+    "expansion":"core",
     "id":13
   },
   {
@@ -222,6 +364,7 @@
     "coins":4.0,
     "team":null,
     "number":"003",
+    "expansion":"core",
     "id":14
   },
   {
@@ -237,6 +380,7 @@
     "coins":3.0,
     "team":null,
     "number":"004",
+    "expansion":"core",
     "id":15
   },
   {
@@ -252,6 +396,7 @@
     "coins":4.0,
     "team":null,
     "number":"005",
+    "expansion":"core",
     "id":16
   },
   {
@@ -267,6 +412,7 @@
     "coins":4.0,
     "team":null,
     "number":"006",
+    "expansion":"core",
     "id":17
   },
   {
@@ -282,6 +428,7 @@
     "coins":2.0,
     "team":null,
     "number":"007",
+    "expansion":"core",
     "id":18
   },
   {
@@ -297,6 +444,7 @@
     "coins":3.0,
     "team":null,
     "number":"008",
+    "expansion":"core",
     "id":19
   },
   {
@@ -312,6 +460,7 @@
     "coins":2.0,
     "team":null,
     "number":"009",
+    "expansion":"core",
     "id":20
   },
   {
@@ -327,6 +476,7 @@
     "coins":4.0,
     "team":null,
     "number":"010",
+    "expansion":"core",
     "id":21
   },
   {
@@ -336,12 +486,13 @@
     "worker":"Yellow",
     "core":"Power",
     "conditions":null,
-    "benefit":"Rescue [RescueCard]",
+    "benefit":"Refresh",
     "location":null,
     "meld":null,
-    "coins":2.0,
+    "coins":4.0,
     "team":null,
     "number":"011",
+    "expansion":"core",
     "id":22
   },
   {
@@ -357,6 +508,7 @@
     "coins":2.0,
     "team":null,
     "number":"012",
+    "expansion":"core",
     "id":23
   },
   {
@@ -372,6 +524,7 @@
     "coins":2.0,
     "team":null,
     "number":"013",
+    "expansion":"core",
     "id":24
   },
   {
@@ -387,6 +540,7 @@
     "coins":4.0,
     "team":null,
     "number":"014",
+    "expansion":"core",
     "id":25
   },
   {
@@ -402,6 +556,7 @@
     "coins":2.0,
     "team":null,
     "number":"015",
+    "expansion":"core",
     "id":26
   },
   {
@@ -417,6 +572,7 @@
     "coins":4.0,
     "team":null,
     "number":"016",
+    "expansion":"core",
     "id":27
   },
   {
@@ -432,6 +588,7 @@
     "coins":3.0,
     "team":null,
     "number":"017",
+    "expansion":"core",
     "id":28
   },
   {
@@ -447,6 +604,7 @@
     "coins":4.0,
     "team":null,
     "number":"018",
+    "expansion":"core",
     "id":29
   },
   {
@@ -462,6 +620,7 @@
     "coins":3.0,
     "team":null,
     "number":"019",
+    "expansion":"core",
     "id":30
   },
   {
@@ -477,6 +636,7 @@
     "coins":3.0,
     "team":null,
     "number":"020",
+    "expansion":"core",
     "id":31
   },
   {
@@ -492,6 +652,7 @@
     "coins":3.0,
     "team":null,
     "number":"021",
+    "expansion":"core",
     "id":32
   },
   {
@@ -507,6 +668,7 @@
     "coins":2.0,
     "team":null,
     "number":"022",
+    "expansion":"core",
     "id":33
   },
   {
@@ -522,6 +684,7 @@
     "coins":2.0,
     "team":null,
     "number":"023",
+    "expansion":"core",
     "id":34
   },
   {
@@ -537,6 +700,7 @@
     "coins":3.0,
     "team":null,
     "number":"024",
+    "expansion":"core",
     "id":35
   },
   {
@@ -552,7 +716,88 @@
     "coins":4.0,
     "team":null,
     "number":"025",
+    "expansion":"core",
     "id":36
+  },
+  {
+    "name":"Tesla Megacharger",
+    "type":"item",
+    "ability":"Whenever you Upgrade another item, you may gain its instant benefit.",
+    "worker":"Blue",
+    "core":"Guile",
+    "conditions":null,
+    "benefit":"Upgrade",
+    "location":null,
+    "meld":null,
+    "coins":5.0,
+    "team":null,
+    "number":"091",
+    "expansion":"gc",
+    "id":110
+  },
+  {
+    "name":"Sword of Nogai",
+    "type":"item",
+    "ability":"Once per turn, if you rescue another card, you may gain a worker matching that card\u2019s color.",
+    "worker":"Red",
+    "core":"Power",
+    "conditions":null,
+    "benefit":"Rescue [RescueCard]",
+    "location":null,
+    "meld":null,
+    "coins":5.0,
+    "team":null,
+    "number":"092",
+    "expansion":"gc",
+    "id":111
+  },
+  {
+    "name":"The Eagle",
+    "type":"item",
+    "ability":"Whenever you Solve, you may gain the Solved quest\u2019s benefit twice (pay only once).",
+    "worker":"Green",
+    "core":"Guile",
+    "conditions":null,
+    "benefit":"Solve",
+    "location":null,
+    "meld":null,
+    "coins":5.0,
+    "team":null,
+    "number":"093",
+    "expansion":"gc",
+    "id":112
+  },
+  {
+    "name":"Ancient Wine",
+    "type":"item",
+    "ability":"Whenever you gain a card, add it to your hand. Then each player gains [Power] or [Guile].",
+    "worker":"Yellow",
+    "core":"Guile",
+    "conditions":null,
+    "benefit":"Gain [DrawCard]",
+    "location":null,
+    "meld":null,
+    "coins":5.0,
+    "team":null,
+    "number":"094",
+    "expansion":"gc",
+    "id":113
+  },
+  {
+    "name":"Tainted Medallion",
+    "type":"item",
+    "ability":"Whenever you Meld, you may play a card.",
+    "worker":"Purple",
+    "core":"Power",
+    "conditions":null,
+    "benefit":"Meld",
+    "location":null,
+    "meld":null,
+    "coins":5.0,
+    "team":null,
+    "number":"095",
+    "expansion":"gc",
+    "id":114
   },
   {
     "name":"Mindstone",
@@ -567,6 +812,7 @@
     "coins":null,
     "team":null,
     "number":"026",
+    "expansion":"core",
     "id":37
   },
   {
@@ -582,6 +828,7 @@
     "coins":null,
     "team":null,
     "number":"027",
+    "expansion":"core",
     "id":38
   },
   {
@@ -597,6 +844,7 @@
     "coins":null,
     "team":null,
     "number":"028",
+    "expansion":"core",
     "id":39
   },
   {
@@ -612,6 +860,7 @@
     "coins":null,
     "team":null,
     "number":"029",
+    "expansion":"core",
     "id":40
   },
   {
@@ -627,6 +876,7 @@
     "coins":null,
     "team":null,
     "number":"030",
+    "expansion":"core",
     "id":41
   },
   {
@@ -642,6 +892,7 @@
     "coins":null,
     "team":null,
     "number":"031",
+    "expansion":"core",
     "id":42
   },
   {
@@ -657,6 +908,7 @@
     "coins":null,
     "team":null,
     "number":"032",
+    "expansion":"core",
     "id":43
   },
   {
@@ -672,6 +924,7 @@
     "coins":null,
     "team":null,
     "number":"033",
+    "expansion":"core",
     "id":44
   },
   {
@@ -687,6 +940,7 @@
     "coins":null,
     "team":null,
     "number":"034",
+    "expansion":"core",
     "id":45
   },
   {
@@ -702,6 +956,7 @@
     "coins":null,
     "team":null,
     "number":"035",
+    "expansion":"core",
     "id":46
   },
   {
@@ -717,6 +972,7 @@
     "coins":null,
     "team":null,
     "number":"036",
+    "expansion":"core",
     "id":47
   },
   {
@@ -732,6 +988,7 @@
     "coins":null,
     "team":null,
     "number":"037",
+    "expansion":"core",
     "id":48
   },
   {
@@ -747,6 +1004,7 @@
     "coins":null,
     "team":null,
     "number":"038",
+    "expansion":"core",
     "id":49
   },
   {
@@ -762,6 +1020,7 @@
     "coins":null,
     "team":null,
     "number":"039",
+    "expansion":"core",
     "id":50
   },
   {
@@ -777,6 +1036,7 @@
     "coins":null,
     "team":null,
     "number":"040",
+    "expansion":"core",
     "id":51
   },
   {
@@ -792,6 +1052,7 @@
     "coins":null,
     "team":null,
     "number":"041",
+    "expansion":"core",
     "id":52
   },
   {
@@ -807,6 +1068,7 @@
     "coins":null,
     "team":null,
     "number":"042",
+    "expansion":"core",
     "id":53
   },
   {
@@ -822,6 +1084,7 @@
     "coins":null,
     "team":null,
     "number":"043",
+    "expansion":"core",
     "id":54
   },
   {
@@ -837,6 +1100,7 @@
     "coins":null,
     "team":null,
     "number":"044",
+    "expansion":"core",
     "id":55
   },
   {
@@ -852,6 +1116,7 @@
     "coins":null,
     "team":null,
     "number":"045",
+    "expansion":"core",
     "id":56
   },
   {
@@ -867,6 +1132,7 @@
     "coins":null,
     "team":null,
     "number":"046",
+    "expansion":"core",
     "id":57
   },
   {
@@ -882,6 +1148,7 @@
     "coins":null,
     "team":null,
     "number":"047",
+    "expansion":"core",
     "id":58
   },
   {
@@ -897,6 +1164,7 @@
     "coins":null,
     "team":null,
     "number":"048",
+    "expansion":"core",
     "id":59
   },
   {
@@ -912,6 +1180,7 @@
     "coins":null,
     "team":null,
     "number":"049",
+    "expansion":"core",
     "id":60
   },
   {
@@ -927,6 +1196,7 @@
     "coins":null,
     "team":null,
     "number":"050",
+    "expansion":"core",
     "id":61
   },
   {
@@ -942,6 +1212,7 @@
     "coins":null,
     "team":null,
     "number":"051",
+    "expansion":"core",
     "id":62
   },
   {
@@ -957,6 +1228,7 @@
     "coins":null,
     "team":null,
     "number":"052",
+    "expansion":"core",
     "id":63
   },
   {
@@ -972,6 +1244,7 @@
     "coins":null,
     "team":null,
     "number":"053",
+    "expansion":"core",
     "id":64
   },
   {
@@ -987,6 +1260,7 @@
     "coins":null,
     "team":null,
     "number":"054",
+    "expansion":"core",
     "id":65
   },
   {
@@ -1002,6 +1276,7 @@
     "coins":null,
     "team":null,
     "number":"055",
+    "expansion":"core",
     "id":66
   },
   {
@@ -1017,6 +1292,7 @@
     "coins":null,
     "team":null,
     "number":"056",
+    "expansion":"core",
     "id":67
   },
   {
@@ -1032,6 +1308,7 @@
     "coins":null,
     "team":null,
     "number":"057",
+    "expansion":"core",
     "id":68
   },
   {
@@ -1047,6 +1324,7 @@
     "coins":null,
     "team":null,
     "number":"058",
+    "expansion":"core",
     "id":69
   },
   {
@@ -1062,6 +1340,7 @@
     "coins":null,
     "team":null,
     "number":"059",
+    "expansion":"core",
     "id":70
   },
   {
@@ -1077,6 +1356,7 @@
     "coins":null,
     "team":null,
     "number":"060",
+    "expansion":"core",
     "id":71
   },
   {
@@ -1092,6 +1372,7 @@
     "coins":null,
     "team":null,
     "number":"061",
+    "expansion":"core",
     "id":72
   },
   {
@@ -1107,6 +1388,7 @@
     "coins":null,
     "team":null,
     "number":"062",
+    "expansion":"core",
     "id":73
   },
   {
@@ -1122,6 +1404,7 @@
     "coins":null,
     "team":null,
     "number":"063",
+    "expansion":"core",
     "id":74
   },
   {
@@ -1137,6 +1420,7 @@
     "coins":null,
     "team":null,
     "number":"064",
+    "expansion":"core",
     "id":75
   },
   {
@@ -1152,6 +1436,7 @@
     "coins":null,
     "team":null,
     "number":"065",
+    "expansion":"core",
     "id":76
   },
   {
@@ -1167,6 +1452,7 @@
     "coins":null,
     "team":null,
     "number":"066",
+    "expansion":"core",
     "id":77
   },
   {
@@ -1182,6 +1468,7 @@
     "coins":null,
     "team":null,
     "number":"067",
+    "expansion":"core",
     "id":78
   },
   {
@@ -1197,6 +1484,7 @@
     "coins":null,
     "team":null,
     "number":"068",
+    "expansion":"core",
     "id":79
   },
   {
@@ -1212,6 +1500,7 @@
     "coins":null,
     "team":null,
     "number":"069",
+    "expansion":"core",
     "id":80
   },
   {
@@ -1227,6 +1516,7 @@
     "coins":null,
     "team":null,
     "number":"070",
+    "expansion":"core",
     "id":81
   },
   {
@@ -1242,6 +1532,7 @@
     "coins":null,
     "team":null,
     "number":"071",
+    "expansion":"core",
     "id":82
   },
   {
@@ -1257,6 +1548,7 @@
     "coins":null,
     "team":null,
     "number":"072",
+    "expansion":"core",
     "id":83
   },
   {
@@ -1272,6 +1564,7 @@
     "coins":null,
     "team":null,
     "number":"073",
+    "expansion":"core",
     "id":84
   },
   {
@@ -1287,6 +1580,7 @@
     "coins":null,
     "team":null,
     "number":"074",
+    "expansion":"core",
     "id":85
   },
   {
@@ -1302,6 +1596,7 @@
     "coins":null,
     "team":null,
     "number":"075",
+    "expansion":"core",
     "id":86
   },
   {
@@ -1317,6 +1612,7 @@
     "coins":null,
     "team":null,
     "number":"076",
+    "expansion":"core",
     "id":87
   },
   {
@@ -1332,6 +1628,7 @@
     "coins":null,
     "team":null,
     "number":"077",
+    "expansion":"core",
     "id":88
   },
   {
@@ -1347,6 +1644,7 @@
     "coins":null,
     "team":null,
     "number":"078",
+    "expansion":"core",
     "id":89
   },
   {
@@ -1362,6 +1660,7 @@
     "coins":null,
     "team":null,
     "number":"079",
+    "expansion":"core",
     "id":90
   },
   {
@@ -1377,6 +1676,7 @@
     "coins":null,
     "team":null,
     "number":"080",
+    "expansion":"core",
     "id":91
   },
   {
@@ -1392,6 +1692,7 @@
     "coins":null,
     "team":null,
     "number":"081",
+    "expansion":"core",
     "id":92
   },
   {
@@ -1407,6 +1708,7 @@
     "coins":null,
     "team":null,
     "number":"082",
+    "expansion":"core",
     "id":93
   },
   {
@@ -1422,6 +1724,7 @@
     "coins":null,
     "team":null,
     "number":"083",
+    "expansion":"core",
     "id":94
   },
   {
@@ -1437,6 +1740,7 @@
     "coins":null,
     "team":null,
     "number":"084",
+    "expansion":"core",
     "id":95
   },
   {
@@ -1452,6 +1756,7 @@
     "coins":null,
     "team":null,
     "number":"085",
+    "expansion":"core",
     "id":96
   },
   {
@@ -1467,6 +1772,7 @@
     "coins":null,
     "team":null,
     "number":"086",
+    "expansion":"core",
     "id":97
   },
   {
@@ -1482,6 +1788,7 @@
     "coins":null,
     "team":null,
     "number":"087",
+    "expansion":"core",
     "id":98
   },
   {
@@ -1497,6 +1804,7 @@
     "coins":null,
     "team":null,
     "number":"088",
+    "expansion":"core",
     "id":99
   },
   {
@@ -1512,6 +1820,7 @@
     "coins":null,
     "team":null,
     "number":"089",
+    "expansion":"core",
     "id":100
   },
   {
@@ -1527,6 +1836,7 @@
     "coins":null,
     "team":null,
     "number":"090",
+    "expansion":"core",
     "id":101
   }
 ]
